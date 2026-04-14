@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Shop | Sac Pig Bait Co.',
-  description: 'Browse products from Sac Pig Bait Co.',
+  title: 'Shop | Microballoons.com',
+  description: 'Browse products from Microballoons.com.',
 };
 
 export default function ShopPage() {

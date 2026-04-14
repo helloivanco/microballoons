@@ -3,9 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sac Pig Bait Co.',
-  description:
-    'Sac Pig Bait Co. — handcrafted baits and tools for anglers who demand quality.',
+  title: 'Microballoons.com',
+  description: 'Microballoons.com — resin microballoons and tools.',
 };
 
 export default function HomePage() {
@@ -14,15 +13,15 @@ export default function HomePage() {
       <section className='mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-6 py-20 text-center lg:px-12'>
         <Image
           src='/logo.webp'
-          alt='Sac Pig Bait Co. logo'
-          width={180}
-          height={180}
+          alt='Microballoons.com logo'
+          width={240}
+          height={240}
           priority
-          className='h-44 w-44 object-contain'
+          className='h-40 w-auto object-contain sm:h-56'
         />
         <div className='flex flex-col gap-4'>
           <h1 className='text-4xl font-semibold tracking-tight text-slate-950 sm:text-6xl'>
-            Sac Pig Bait Co.
+            Microballoons.com
           </h1>
           <p className='mx-auto max-w-2xl text-lg leading-relaxed text-slate-600'>
             Welcome. Content coming soon.

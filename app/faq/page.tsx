@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'FAQ | Sac Pig Bait Co.',
-  description: 'Frequently asked questions about Sac Pig Bait Co. products.',
+  title: 'FAQ | Microballoons.com',
+  description: 'Frequently asked questions about Microballoons.com products.',
 };
 
 export default function FaqPage() {
