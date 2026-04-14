@@ -150,7 +150,7 @@ export default function CalculatorClient() {
       <div className='mx-auto flex min-h-screen w-full max-w-5xl flex-col gap-10 px-6 py-16 text-slate-900 lg:px-12 xl:px-16'>
         <header className='flex flex-col items-center gap-6 text-center sm:items-start sm:text-left'>
           <div className='flex flex-col gap-3'>
-            <h1 className='text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl'>
+            <h1 className='text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl lg:text-5xl'>
               {PAGE_TITLE}
             </h1>
             <p className='max-w-2xl text-lg leading-relaxed text-slate-600'>

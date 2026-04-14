@@ -77,7 +77,7 @@ export default function FaqPage() {
       <FaqJsonLd />
       <section className='mx-auto flex w-full max-w-5xl flex-col gap-8 px-6 py-16 lg:px-12'>
         <header className='space-y-4'>
-          <h1 className='text-3xl font-semibold tracking-tight text-slate-950 sm:text-5xl'>
+          <h1 className='text-2xl font-semibold tracking-tight text-slate-950 sm:text-4xl lg:text-5xl'>
             Frequently Asked Questions about Premium Glass Microballoons -
             Silane-Coated Microspheres
           </h1>

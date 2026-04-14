@@ -113,7 +113,7 @@ export default async function ProductDetailsPage({ params }: ProductPageProps) {
             </div>
 
             <div className='flex flex-col gap-6 p-6 sm:p-8'>
-              <h1 className='text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl'>
+              <h1 className='text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl lg:text-4xl'>
                 {product.title}
               </h1>
               <p className='text-3xl font-bold text-slate-900'>

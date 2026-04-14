@@ -38,7 +38,7 @@ export default function HomePage() {
           <div className='absolute inset-0 bg-gradient-to-b from-black/35 via-black/10 to-slate-50' />
           <div className='absolute inset-x-0 bottom-[10%] z-10 px-6 text-center lg:px-12'>
             <p
-              className={`${bebasNeue.className} text-5xl font-bold tracking-[0.06em] text-black drop-shadow-[0_6px_24px_rgba(0,0,0,0.15)] sm:text-7xl lg:text-8xl`}>
+              className={`${bebasNeue.className} text-4xl font-bold tracking-[0.06em] text-black drop-shadow-[0_6px_24px_rgba(0,0,0,0.15)] sm:text-6xl md:text-7xl lg:text-8xl`}>
               Need Some Loons?
             </p>
           </div>
@@ -50,7 +50,7 @@ export default function HomePage() {
           <p className='text-sm font-semibold uppercase tracking-[0.22em] text-slate-500'>
             Premium Microballoons
           </p>
-          <h1 className='text-4xl font-semibold tracking-tight text-slate-950 sm:text-6xl'>
+          <h1 className='text-3xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl'>
             Smoother. Stronger. Better.
           </h1>
           <p className='mx-auto max-w-2xl text-lg leading-relaxed text-slate-600'>
@@ -76,7 +76,7 @@ export default function HomePage() {
 
       <section className='mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 pb-20 lg:px-12'>
         <div className='flex flex-wrap items-center justify-between gap-3'>
-          <h2 className='text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl'>
+          <h2 className='text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl lg:text-4xl'>
             Featured Products
           </h2>
           <Link

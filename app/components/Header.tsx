@@ -62,8 +62,8 @@ export default function Header() {
           <div className='mx-auto flex w-full max-w-6xl justify-center px-4 py-2.5 sm:px-6 lg:px-12'>
             <Link
               href='/shop'
-              className='inline-flex items-center gap-2 text-center text-sm font-medium tracking-wide text-slate-900 transition hover:opacity-80 sm:text-base'>
-              <span>
+              className='inline-flex items-center gap-1.5 text-center text-xs font-medium tracking-wide text-slate-900 transition hover:opacity-80 sm:text-sm md:text-base'>
+              <span className='truncate'>
                 Microballoons.com - #1 Source for Premium Microballoons
               </span>
               <ArrowRight size={18} aria-hidden='true' />
