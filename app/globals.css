@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.mb-video-player .video-js {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.mb-video-player .video-js .vjs-tech,
+.mb-video-player .video-js iframe,
+.mb-video-player .video-js .vjs-tech iframe {
+  width: 100% !important;
+  height: 100% !important;
+}

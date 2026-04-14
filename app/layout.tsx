@@ -14,31 +14,49 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://microballoons.com";
+
 export const metadata: Metadata = {
-  title: "Microballoon Mix Converter",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Microballoons.com — Premium Silane-Coated Glass Microspheres",
+    template: "%s | Microballoons.com",
+  },
   description:
-    "Convert legacy microballoon resin formulas into the updated mix instantly with this calculator.",
+    "Premium silane-coated glass microballoons for resin baits, model building, and lightweight filler mixes. Stronger bonding, easier sanding, flawless finish.",
   keywords: [
-    "microballoon converter",
-    "resin mix calculator",
+    "microballoons",
+    "glass microspheres",
+    "silane-coated microballoons",
+    "resin filler",
+    "micro balloons",
+    "lightweight filler",
     "epoxy microballoons",
-    "mix ratio tool",
-    "density calculator",
+    "bait making supplies",
   ],
   openGraph: {
-    title: "Microballoon Mix Converter",
-    description:
-      "Quickly translate old microballoon resin recipes into the new formulation with precise ratios.",
+    siteName: "Microballoons.com",
     type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    images: [
+      {
+        url: "/compare.webp",
+        width: 1200,
+        height: 630,
+        alt: "Microballoons.com — Premium Silane-Coated Glass Microspheres",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
-    title: "Microballoon Mix Converter",
-    description:
-      "Instantly update microballoon resin mixes with this conversion calculator.",
+    card: "summary_large_image",
+    images: ["/compare.webp"],
   },
   icons: {
     icon: "/logo.webp",
+  },
+  alternates: {
+    canonical: SITE_URL,
   },
 };
 
