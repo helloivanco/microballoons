@@ -5,7 +5,6 @@ import { notFound } from 'next/navigation';
 
 import HomeHeroMedia from '../../components/HomeHeroMedia';
 import ProductCard from '../../components/ProductCard';
-import ShareProductButton from '../../components/ShareProductButton';
 import { PRODUCTS, getProductByHandle } from '../../data/products';
 
 const MICROBALLOON_HANDLES = new Set([
@@ -138,7 +137,6 @@ export default async function ProductDetailsPage({ params }: ProductPageProps) {
                   Buy Now on SacPig.com
                   <ExternalLink size={16} aria-hidden='true' />
                 </a>
-                <ShareProductButton title={product.title} />
               </div>
               <p className='text-sm text-slate-500'>
                 Microballoons.com products are available for purchase directly on{' '}

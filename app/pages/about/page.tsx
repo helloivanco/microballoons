@@ -22,8 +22,7 @@ export default function AboutPage() {
             About Microballoons.com
           </h1>
           <p className='max-w-3xl text-lg leading-relaxed text-slate-600'>
-            Built from real-world bait making frustration into a better standard
-            for makers.
+            We got tired of bad filler. So we made our own.
           </p>
         </header>
 

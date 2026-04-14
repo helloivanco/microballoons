@@ -33,10 +33,11 @@ export default function ContactPage() {
       <section className='relative z-10 mx-auto flex w-full max-w-2xl flex-col items-center gap-8 px-6 py-20 text-center lg:px-12'>
         <div className='flex flex-col gap-4'>
           <h1 className='text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl'>
-            Contact
+            Get in Touch
           </h1>
           <p className='text-lg leading-relaxed text-slate-600'>
-            Have a question? Send us an email and we&apos;ll get back to you.
+            Questions about mixing ratios, bulk orders, or just want to talk
+            shop? We&apos;re real people and we answer every email.
           </p>
         </div>
 

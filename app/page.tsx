@@ -47,28 +47,21 @@ export default function HomePage() {
 
       <section className='mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-6 py-16 text-center lg:px-12'>
         <div className='flex flex-col gap-4'>
-          <p className='text-sm font-semibold uppercase tracking-[0.22em] text-slate-500'>
-            Premium Microballoons
-          </p>
           <h1 className='text-3xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl'>
             Smoother. Stronger. Better.
           </h1>
           <p className='mx-auto max-w-2xl text-lg leading-relaxed text-slate-600'>
-            Premium microballoons, also known as glass microspheres or micro
-            balloons, offer exceptional versatility and quality.
+            Silane-coated glass microballoons that sand easier, bond stronger,
+            and mix cleaner than anything else on the market. Built by makers,
+            for makers.
           </p>
         </div>
-        <div className='flex flex-wrap items-center justify-center gap-3'>
-          <Link
-            href='/collections/all'
-            className='rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800'>
-            Buy Now
-          </Link>
-        </div>
+        <Link
+          href='/collections/all'
+          className='rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800'>
+          Shop Microballoons
+        </Link>
 
-        <p className='text-sm font-medium uppercase tracking-[0.2em] text-slate-400'>
-          See why
-        </p>
         <div className='w-full max-w-4xl'>
           <HomeHeroMedia />
         </div>
