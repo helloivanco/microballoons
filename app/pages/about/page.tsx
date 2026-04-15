@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     description:
       'Learn how Microballoons.com started and why our premium silane-coated glass microballoons were developed.',
     url: '/pages/about',
+    images: [{ url: '/logo-whitebk.webp', alt: 'Microballoons.com' }],
   },
 };
 

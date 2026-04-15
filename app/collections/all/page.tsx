@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description:
       'Shop premium silane-coated microballoons and the SacPig Microballoon sticker.',
     url: '/collections/all',
+    images: [{ url: '/logo-whitebk.webp', alt: 'Microballoons.com' }],
   },
 };
 

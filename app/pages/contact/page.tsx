@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description:
       'Have a question about premium microballoons? Send us an email and we will get back to you.',
     url: '/pages/contact',
+    images: [{ url: '/logo-whitebk.webp', alt: 'Microballoons.com' }],
   },
 };
 

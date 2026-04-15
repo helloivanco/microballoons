@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description:
       'Quickly translate old microballoon resin recipes into the new formulation with precise ratios.',
     url: '/calculator',
+    images: [{ url: '/logo-whitebk.webp', alt: 'Microballoons.com' }],
   },
 };
 

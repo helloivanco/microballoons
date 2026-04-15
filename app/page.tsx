@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     description:
       'Premium silane-coated glass microballoons for resin baits, model building, and lightweight filler mixes.',
     url: '/',
+    images: [{ url: '/logo-whitebk.webp', alt: 'Microballoons.com' }],
   },
 };
 

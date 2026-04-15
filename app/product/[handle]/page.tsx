@@ -49,6 +49,12 @@ export async function generateMetadata({
       url: `/products/${handle}`,
       images: [{ url: product.image, alt: product.title }],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${product.title} | Microballoons.com`,
+      description: product.summary,
+      images: [product.image],
+    },
   };
 }
 

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description:
       'Answers about using premium silane-coated microballoons for resin baits, model building, and lightweight projects.',
     url: '/pages/microballoons-com-faq',
+    images: [{ url: '/logo-whitebk.webp', alt: 'Microballoons.com' }],
   },
 };
 

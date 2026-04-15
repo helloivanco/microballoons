@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 const SITE_URL = "https://microballoons.com";
+const DEFAULT_PREVIEW_IMAGE = "/logo-whitebk.webp";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -41,16 +42,14 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [
       {
-        url: "/compare.webp",
-        width: 1200,
-        height: 630,
+        url: DEFAULT_PREVIEW_IMAGE,
         alt: "Microballoons.com — Premium Silane-Coated Glass Microspheres",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/compare.webp"],
+    images: [DEFAULT_PREVIEW_IMAGE],
   },
   icons: {
     icon: "/logo.webp",
